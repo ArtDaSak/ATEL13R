@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="icon" href="assets/img/favicon.png" type="image/png">
-    <title>Title</title>
-    
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer type="module"></script>
+    <title>ATEL13R - Login</title>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png"/>
+
+    <link rel="stylesheet" href="../css/stylesheets/styleLogin.css"/>
+    <script src="../js/scripts/functionsLogin.js"></script>
 </head>
 
 <body>
-    
-</body>
+    <main class="main__login">
+        <section class="section__loginBox">
 
+        <div class="div__title">
+            <h1 class="title__text">ATEL13R VIRTUAL</h1>
+            <p class="title__subtitle">Inicia Sesión</p>
+        </div>
+        
+        <div class="div__submit">
+            <button type="submit" class="button__login" onclick="window.location.href='views/login.html'">
+                <img src="./assets/icons/index/mail.svg">
+                <p>Continuar con un Correo</p>
+            </button>
+        </div>
+        </section>
+    </main>
+</body>
 </html>

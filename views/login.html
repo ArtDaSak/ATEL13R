@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>ATEL13R - Login</title>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png"/>
+
+    <link rel="stylesheet" href="../css/stylesheets/styleLogin.css"/>
+    <script src="../js/scripts/functionsLogin.js"></script>
+</head>
+<body>
+    <main class="main__login">
+        <section class="section__loginBox">
+
+        <div class="div__title">
+            <h1 class="title__text">ATEL13R VIRTUAL</h1>
+            <p class="title__subtitle">Log in to your virtual closet</p>
+        </div>
+        
+        <form class="form__login" id="loginForm">
+            <div class="div__inputGroup">
+                <label for="username" class="label__input">Username</label>
+                <input type="text" id="username" name="username" class="input__text" placeholder="Type your username" required />
+            </div>
+
+            <div class="div__inputGroup">
+                <label for="password" class="label__input">Password</label>
+                <input type="password" id="password" name="password" class="input__text" placeholder="Enter your password" required />
+            </div>
+
+            <div class="div__submit">
+                <button type="submit" class="button__login">Log In</button>
+            </div>
+        </form>
+
+        <div class="div__registerHint">
+            <p class="text__register">Don’t have an account yet? <a href="#" class="link__register">Register</a></p>
+        </div>
+
+        </section>
+    </main>
+</body>
+</html>
