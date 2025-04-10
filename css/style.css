@@ -4,3 +4,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: colum;
+    margin-top: 12vw;
+    font-family: "lorem-handwritten";
+    background: var(--lorem-black);
+    color: var(--lorem-white);
+}
+.title__text{
+    display: flex;
+    font-family: "lorem-handwritten";
+    font-size: 4rem;
+    text-align: center;
+    color: var(--lorem-white);
+}
+.main__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button__login{
+    display: flex;
+    justify-content: center;
+    font-family: "lorem-handwritten";
+    background: var(--lorem-blue);
+    color: var(--lorem-white);
+}
